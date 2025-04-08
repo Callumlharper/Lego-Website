@@ -22,9 +22,9 @@ Create a feature branch from main or develop (name your branch something descrip
 - Coding Standards
 Ensure that your code follows the existing style and conventions used in the repository.
 
-Indentation: Use [tabs/spaces] for indentation (specify the number of spaces/tabs used in your code).
+Indentation: Use [tabs/spaces] for indentation.
 
-Naming Conventions: Follow the established naming conventions for variables, functions, and classes. Refer to the [coding style guide](link to style guide, if applicable) for more details.
+Naming Conventions: Follow the established naming conventions for variables, functions, and classes. Refer to the Github coding style guide (https://docs.github.com/en/contributing/style-guide-and-content-model/style-guide) for more details.
 
 Commenting: Include meaningful comments where necessary, explaining complex logic and providing context to your code.
 
@@ -67,7 +67,8 @@ sql
 Copy
 feat: add user registration feature
 fix: resolve issue with authentication timeout
-6. Issue Reporting
+
+- Issue Reporting
 If you find any bugs or issues, please create a new issue by following these guidelines:
 
 Describe the problem clearly and provide any relevant steps to reproduce.
