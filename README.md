@@ -2,7 +2,12 @@
 A website about Lego made in HTML/CSS deployed on Github Pages and can be accessed via the following link: "HTML Link here"
 
 # To run the project locally:
-Git clone <repo html URL>
+Git clone https://github.com/Callumlharper/Lego-Website.git
+
+# To open the project folder in a code editor:
+Firstly, point the editor to the right file location either by opening this location in 'file - open file'.
+
+ Alternatively, you can navigate to the location using command line (cmd) to open the location. The command is: cd [local project folder location]. This will allow you to see the code structure and amend it as needed. 
 
 # Contribution rules:
 Contributing to Lego-Website
