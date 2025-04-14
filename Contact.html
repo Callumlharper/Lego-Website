@@ -7,12 +7,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
-<body class="bg-[https://imgbox.com/EcENRcwg]">
+<body class="bg-yellow-200">
     <nav class="bg-yellow-300 flex justify-between items-space-between">
-<h1 class="bg-white-700 flex items-center p-20 text-black outline-white text-4xl" >Lego Website</h1>
-<ul class="bg-white-700 flex items-space-between m-auto gap-10 p-20">
+        <img src="https://images2.imgbox.com/6f/a0/55dHiRpf_o.jpg" alt="Lego Website"> 
+        <ul class="bg-white-700 flex items-space-between m-auto gap-10 p-20 font-semibold">
     <li>
-        <a href="Home.html">Home</a>
+        <a href="http://127.0.0.1:5500/">Home</a>
     </li>
     <li>
         <a href="About Lego.html">About Lego</a>
@@ -25,10 +25,52 @@
     </li>
 </ul>
     </nav>
-    <section>
-    <p class="font-sans text-center m-8">If you are seeking to contact me, please reconsider. This site is merely a test of coding skills. For any issues concerning Lego please contact them directly, or consult YouTube.
-    </p>
-    <img class="object-contain md:object-cover" src="lego brick pic" />
-</section>
+    <Section class="grid grid-cols-1 justify-items-center">
+    <div class="justify-center max-w-sm rounded shadow-md">
+        <img class="w-full" src="https://images2.imgbox.com/80/63/IDBas6TT_o.jpg" alt="Please Reconsider">
+        <div class="px-6 py-4 justify-center">
+          <div class="font-bold text-xl mb-2">Please Reconsider</div>
+          <p class="text-black-700 text-base">
+           Please reconsider contacting this webpage, there are better resources out there to support you. Facebook, Google, Lego and YouTube have more resources than I could fit on here.
+           If you still need to contact the site, please fill in the form below:
+          </p>
+          <div class="flex justify-center">
+
+            <form class="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-50% lg:px-6">
+        
+                <div class="mb-3 w-full">
+                    <label class="block font-medium mb-[2px] text-black-700" htmlFor="exampleInput90">
+                            Name
+                    </label>
+                    <input type="text" class="px-2 py-2 border w-full outline-none rounded-md" id="exampleInput90" placeholder="Name" />
+                </div>
+        
+                <div class="mb-3 w-full">
+                    <label class="block font-medium mb-[2px] text-black-700" htmlFor="exampleInput90">
+                            Email
+                    </label>
+                    <input type="email" class="px-2 py-2 border w-full outline-none rounded-md" id="exampleInput90"
+                            placeholder="Enter your email address" />
+                </div>
+        
+                <div class="mb-3 w-full">
+                    <label class="block font-medium mb-[2px] text-black-700" htmlFor="exampleInput90">
+                            Message / Query
+                    </label>
+                    <textarea class="px-2 py-2 border rounded-[5px] w-full outline-none" name="" id=""></textarea>
+                </div>
+        
+                <button type="button"
+                        class="mb-6 inline-block w-full rounded bg-yellow-300 px-6 py-2.5 font-medium uppercase leading-normal text-black hover:shadow-md hover:bg-yellow-500">
+                        Send
+                </button>
+        
+            </form>
+        </div>
+
+</Section>
+
+    
+
 </body>
 </html>
